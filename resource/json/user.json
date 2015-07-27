@@ -1,0 +1,18 @@
+[
+  {
+    "model":"user",
+    "items": [{
+		"name":"Super user",
+		"password":"123456",
+		"email":"superuser@gmail.com",
+		"active":"1",
+		"usertype":"S"
+	},{
+		"name":"Regular user",
+		"password":"123456",
+		"email":"regularuser@gmail.com",
+		"active":"1",
+		"usertype":"U"
+	}]
+  }
+]

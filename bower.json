@@ -1,0 +1,32 @@
+{
+  "name": "backoffice",
+  "version": "0.1.0",
+  "authors": [
+    "Maheshwaran <mahesh.b@ideas2it.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "0.12.2",
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.1.1",
+    "jquery-timeago": "~1.4.1",
+    "requirejs": "~2.1.11",
+    "requirejsx": "*",
+    "director": "~1.2.2",
+    "moment": "2.10.2",
+    "react-router": "0.12.4",
+    "fontawesome": "~4.3.0",
+    "showdown": "0.3.1",
+    "dcjqaccordion": "~2.7.1",
+    "jquery.scrollTo": "1.4.6",
+    "jquery-validation": "~1.14.0",
+    "sails.io.js": "~0.11.5"
+  }
+}

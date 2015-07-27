@@ -1,0 +1,183 @@
+.example-enter {
+  opacity: 0.01;
+  transition: opacity .5s ease-in;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+}
+
+.example-leave {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+}
+ 
+.grid-inner {
+  border: 1px solid #f1f2f7;
+  font-size: 15px;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+.grid-width {
+  width: 1142px;
+}
+.grid-container {
+  width: 100%;
+}
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+.margin-top-90{
+	margin-top: 90px;
+}
+.logo-text{
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: -10px;
+}
+.i2i-link{
+    bottom: 2px;
+    color: lime;
+    position: absolute;
+    right: 5px;
+}
+.form-align{
+  margin-left: 260px !important;
+  margin-right: 20px;
+}
+.submit-btn{
+  background-color: #1fb5ad;
+  width: 150px;
+}
+.submit-btn:hover{
+   background-color: #1fb5ad; 
+}
+.submit-btn:after{
+   background-color: #1fb5ad !important; 
+}
+.submit-btn:active, .submit-btn.active{
+   background-color: #1fb5ad !important;  
+}
+.submit-btn:focus {
+   background-color: #1fb5ad !important;   
+}
+.cancel-btn{
+  background-color: #c7cbd6;
+  width: 150px;
+}
+.cancel-btn:hover{
+   background-color: #1fb5ad; 
+}
+.cancel-btn:after{
+   background-color: #1fb5ad; 
+}
+.text-dark{
+  color: #767676;
+}
+.text-dark-panel{
+  color: #767676;
+  font-size: 18px;
+}
+.margin-left-30{
+  margin-left: 30px;
+}
+.alert-error {
+  border-color: #eed3d7;
+  color: #b94a48;
+  text-align: left;
+}
+.innergrid-center{
+  margin-left: 30px;
+}
+.input-align{
+  margin-left: 15px;
+  max-width: 87%;
+  float: left;
+}
+.numeric-static{
+  float: left;
+  padding-top: 10px;
+  width: 8%;
+}
+.display-flex{
+  display: flex;
+}
+tbody:nth-child(odd) tr td {
+  background: #f9f9f9 !important;
+}
+
+tbody:nth-child(even) tr td {
+  background: #ffffff !important;
+}
+
+.alert-align{
+  display: inline-block;
+  font-size: 14px;
+  width:40%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: fixed;
+  text-align: center;
+  top: 50px;  
+  left: 0;
+  z-index: 1002;
+  margin-left: 30%;
+} 
+.alert-align li{ 
+  width: 40%;
+  margin: 0 auto;
+} 
+.position-static{
+  position: static;
+}
+.value-wrap{
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 150px;
+}
+.datepicker td.active, .datepicker td.active:hover {
+  color: #000;
+}
+
+.navbar-header{
+  width: 100%;
+}
+
+ul.dropdown-menu.currency-options>li a.active{
+  border-radius: 30px;
+  background-color: #1FB5AD;
+  padding: 10px 30px;
+  color: #FFF;
+  margin: 2px;
+}
+
+input[type="radio"] {
+  margin: 3px 3px 0px 5px !important;
+}
+
+.pagination {
+  margin: 0 27.5%;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:hover,
+.pagination>.active>a:focus { 
+  background-color: #1fb5ad;
+  border-color: #1fb5ad;
+}
+
+.pagination > li > a { 
+  background-color: #fafafa;
+  border: 1px solid #EFF2F7;
+}
+
+.pagination > li > a {
+  cursor: pointer;
+}

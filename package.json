@@ -1,0 +1,53 @@
+{
+  "name": "back-office",
+  "private": true,
+  "version": "0.0.1",
+  "authors": [
+    "Maheshwaran <mahesh.b@ideas2it.com>"
+  ],
+  "description": "Sails and React for Back-office Project",
+  "keywords": [],
+  "dependencies": {
+    "async": "0.9.0",
+    "ejs": "~0.8.4",
+    "grunt": "0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-coffee": "~0.10.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-cssmin": "~0.9.0",
+    "grunt-contrib-jst": "~0.6.0",
+    "grunt-contrib-less": "0.11.1",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-react": "*",
+    "grunt-sails-linker": "~0.9.5",
+    "grunt-sync": "~0.0.4",
+    "include-all": "~0.1.3",
+    "moment": "2.10.2",
+    "passport": "~0.2.1",
+    "passport-local": "~1.0.0",
+    "password-hash": "1.2.2",
+    "rc": "~0.5.0",
+    "react": "0.12.2",
+    "redis": "*",
+    "redis-scripto": "0.1.3",
+    "sails": "~0.11.0",
+    "sails-db-migrate": "^1.0.0",
+    "sails-disk": "~0.10.0",
+    "sails-fixtures": "^1.0.8",
+    "sails-redis": "0.10.3",
+    "winston": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node debug app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Ideas2IT/cw2t.git"
+  },
+  "author": "Ideas2It",
+  "license": ""
+}
