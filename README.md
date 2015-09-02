@@ -43,6 +43,10 @@ $ bower install
 $ sails lift
 ```
 
+## Login Credential
+Super user: superuser@gmail.com/123456
+Regular user: regularuser@gmail.com/123456
+
 ## License
 [The MIT License](http://opensource.org/licenses/MIT)
 

@@ -34,14 +34,16 @@ module.exports = {
         User.findOne({ 'email': req.body.email} , function (err, user) {
             if(user){
                 if (!passwordHash.verify(req.body.password, user.password)) {
+                  console.log('Login failed');
                   req.session.flash = { err: 'Invalid email and password combination.'};
-                  return res.view('/');
-                }            
+                  return res.view('login');
+                }
                 req.session.authenticated = true;
                 delete user.password;
-                req.session.user = user;            
+                req.session.user = user;
                 res.redirect('/home#/');
             }else{
+                req.session.flash = { err: 'Login failed, Please contact admin.'};
                 return res.view('login');
             }            
         });

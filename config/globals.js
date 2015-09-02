@@ -9,7 +9,6 @@
  * http://sailsjs.org/#/documentation/reference/sails.config/sails.config.globals.html
  */
 
-var redisManager = require('./redisManager');
 
 module.exports.globals = {
 
@@ -18,7 +17,6 @@ module.exports.globals = {
 	sails: true,
 	services: true,
 	models: true,
-	redis: redisManager.init(),
 
   /****************************************************************************
   *                                                                           *

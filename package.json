@@ -1,11 +1,11 @@
 {
-  "name": "back-office",
+  "name": "reactjs-sails-redis",
   "private": true,
   "version": "0.0.1",
   "authors": [
     "Maheshwaran <mahesh.b@ideas2it.com>"
   ],
-  "description": "Sails and React for Back-office Project",
+  "description": "Sails and React project with Redis as primary database",
   "keywords": [],
   "dependencies": {
     "async": "0.9.0",
@@ -46,7 +46,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Ideas2IT/cw2t.git"
+    "url": "git://github.com/Ideas2IT/reactjs-sails-redis.git"
   },
   "author": "Ideas2It",
   "license": ""
