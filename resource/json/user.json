@@ -4,13 +4,13 @@
     "items": [{
 		"name":"Super user",
 		"password":"123456",
-		"email":"superuser@gmail.com",
+		"email":"superuser@rsr.com",
 		"active":"1",
 		"usertype":"S"
 	},{
 		"name":"Regular user",
 		"password":"123456",
-		"email":"regularuser@gmail.com",
+		"email":"regularuser@rsr.com",
 		"active":"1",
 		"usertype":"U"
 	}]

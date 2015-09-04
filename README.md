@@ -1,7 +1,12 @@
 # ReactJS + Sails + Redis
 
+This framework provides one of the most essential and basic functionality developing any web app. It has user module that allows a super user to login and perform CRUD operations on users.
 
-RSR is a framework for an easy starting point with ReactJS, Sails(Node.js), and Redis server based applications. It is designed to give you a quick and organized way to start developing RSR based web apps with useful modules like Waterline and Passport pre-bundled and configured. Here we used  Socket.IO for enables real-time bidirectional event-based communication.
+RSR is a framework that provides an easy starting point for ReactJS, Sails(Node.js), and Redis server based applications. It is designed to give you a quick and organized way to start developing RSR based web apps with useful modules like Waterline(ORM) and Passport pre-bundled and configured. Here we have used Socket.IO for enabling real-time bidirectional event-based communication.
+
+## Why RSR framework?
+
+RSR framework is use to building a applications with data that changes over time and provides data-driven APIs with a scalable, service-oriented architecture and highly scalable data store shared by multiple processes, multiple applications, or multiple servers.
 
 ## Prerequisite Technologies
 ### Linux
@@ -19,16 +24,16 @@ $ sudo apt-get install nodejs
 ```
 $ sudo npm -g install sails
 ```
-[SailsJS](http://sailsjs.org/get-started)
+For more detail: [SailsJS](http://sailsjs.org/get-started)
 
 #### 3. Install Redis server
 [Redis Server](http://redis.io/topics/quickstart)
 
 #### 3. Install Bower
 ```
-$ npm install -g bower
+$ sudo npm install -g bower
 ```
-[Bower](http://bower.io/)
+For more detail: [Bower](http://bower.io/)
 
 #### 4. Install Git
 ```
@@ -43,9 +48,10 @@ $ bower install
 $ sails lift
 ```
 
-## Login Credential
-Super user: superuser@gmail.com/123456
-Regular user: regularuser@gmail.com/123456
+## Users
+Super user: superuser@rsr.com/123456
+
+Regular user: regularuser@rsr.com/123456
 
 ## License
 [The MIT License](http://opensource.org/licenses/MIT)
