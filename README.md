@@ -1,8 +1,6 @@
 # ReactJS + Sails + Redis
 
-This framework provides one of the most essential and basic functionality developing any web app. It has user module that allows a super user to login and perform CRUD operations on users.
-
-RSR is a framework that provides an easy starting point for ReactJS, Sails(Node.js), and Redis server based applications. It is designed to give you a quick and organized way to start developing RSR based web apps with useful modules like Waterline(ORM) and Passport pre-bundled and configured. Here we have used Socket.IO for enabling real-time bidirectional event-based communication.
+RSR is a framework that provides an easy starting point for ReactJS, Sails(Node.js), and Redis server based applications.
 
 ## Why RSR framework?
 
