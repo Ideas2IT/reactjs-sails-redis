@@ -1,6 +1,6 @@
 # ReactJS + Sails + Redis
 
-RSR is a framework that provides an easy starting point for ReactJS, Sails(Node.js), and Redis server based applications.
+Sails  and Reach.js are fast becoming popular alternates for node.js and Angular.js. RSR is a start application that integrates Reach with Sails. As an added bonus, Redis is configured as the primary database. This starter app is designed to provide a quick and organized way to start developing RSR based web apps with some pre-defined useful modules such as Passport pre-bundled and configured which helps in authentication, etc. 
 
 ## Why RSR framework?
 
