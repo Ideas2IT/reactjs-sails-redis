@@ -1,6 +1,6 @@
 # ReactJS + Sails + Redis
 
-Sails  and React.js are fast becoming popular alternates for node.js and Angular.js. RSR is a start application that integrates React with Sails. As an added bonus, Redis is configured as the primary database. This starter app is designed to provide a quick and organized way to start developing RSR based web apps with some pre-defined useful modules such as Passport pre-bundled and configured which helps in authentication, etc. 
+Sails  and React.js are fast becoming popular alternates for node.js and Angular.js. RSR is a start application that integrates React with Sails. As an added bonus, Redis is configured as the primary database. This starter app is designed to provide a quick and organized way to start developing RSR based web apps with some pre-defined useful modules such as Passport pre-bundled and configured which helps in authentication, etc.
 
 ## Why RSR framework?
 
@@ -45,6 +45,7 @@ $ sudo npm install
 $ bower install
 $ sails lift
 ```
+Your app should now be running on localhost:1337.
 
 ## Users
 Super user: superuser@rsr.com/123456
@@ -55,4 +56,4 @@ Regular user: regularuser@rsr.com/123456
 [The MIT License](http://opensource.org/licenses/MIT)
 
 ## Maintained By
-[<img src='http://ideas2it.com/images/logo.png' title='Ideas2It Technologies Pvt Ltd' height='36px'>](http://ideas2it.com)
+[<img src='https://www.ideas2it.com/images/tiny-home-images/logo.png' title='​Ideas2IT Technology Services Pvt.Ltd' height='36px'>](https://www.ideas2it.com)

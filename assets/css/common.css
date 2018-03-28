@@ -15,7 +15,7 @@
 .example-leave.example-leave-active {
   opacity: 0.01;
 }
- 
+
 .grid-inner {
   border: 1px solid #f1f2f7;
   font-size: 15px;
@@ -43,7 +43,7 @@
 }
 .i2i-link{
     bottom: 2px;
-    color: lime;
+    color: #ffffff;
     position: absolute;
     right: 5px;
 }
@@ -56,26 +56,26 @@
   width: 150px;
 }
 .submit-btn:hover{
-   background-color: #1fb5ad; 
+   background-color: #1fb5ad;
 }
 .submit-btn:after{
-   background-color: #1fb5ad !important; 
+   background-color: #1fb5ad !important;
 }
 .submit-btn:active, .submit-btn.active{
-   background-color: #1fb5ad !important;  
+   background-color: #1fb5ad !important;
 }
 .submit-btn:focus {
-   background-color: #1fb5ad !important;   
+   background-color: #1fb5ad !important;
 }
 .cancel-btn{
   background-color: #c7cbd6;
   width: 150px;
 }
 .cancel-btn:hover{
-   background-color: #1fb5ad; 
+   background-color: #1fb5ad;
 }
 .cancel-btn:after{
-   background-color: #1fb5ad; 
+   background-color: #1fb5ad;
 }
 .text-dark{
   color: #767676;
@@ -124,15 +124,15 @@ tbody:nth-child(even) tr td {
   padding-top: 10px;
   position: fixed;
   text-align: center;
-  top: 50px;  
+  top: 50px;
   left: 0;
   z-index: 1002;
   margin-left: 30%;
-} 
-.alert-align li{ 
+}
+.alert-align li{
   width: 40%;
   margin: 0 auto;
-} 
+}
 .position-static{
   position: static;
 }
@@ -168,12 +168,12 @@ input[type="radio"] {
 
 .pagination>.active>a,
 .pagination>.active>a:hover,
-.pagination>.active>a:focus { 
+.pagination>.active>a:focus {
   background-color: #1fb5ad;
   border-color: #1fb5ad;
 }
 
-.pagination > li > a { 
+.pagination > li > a {
   background-color: #fafafa;
   border: 1px solid #EFF2F7;
 }
