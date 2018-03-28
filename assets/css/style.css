@@ -25,7 +25,7 @@ a,a:hover,a:focus {
     outline:none;
 }
 ::selection {
-    background:#67B0D1;
+    background:#1ca59e;
     color:#fff;
 }
 ::-moz-selection {
@@ -300,7 +300,6 @@ ul.sidebar-menu li a.active i {
     transition:all .3s ease-in-out;
 }
 #main-content-grid {
-    
     -webkit-transition:all .3s ease-in-out;
     -moz-transition:all .3s ease-in-out;
     -o-transition:all .3s ease-in-out;
@@ -336,7 +335,7 @@ ul.sidebar-menu li a.active i {
 .brand {
     float:left;
     width:240px;
-    background:#81bed9;
+    background:#1fb5ad;
     height:80px;
     position:relative;
 }
@@ -3891,7 +3890,7 @@ tr.odd.gradeX td.sorting_1,tr.even.gradeX td.sorting_1,table.display tr.even.gra
     width:100%;
 }
 .full-width .nav>li>a:hover,.full-width .nav li.active a,.full-width .nav li.dropdown a:hover,.full-width .nav li.dropdown.open a:focus,.full-width .nav .open>a,.full-width .nav .open>a:hover,.full-width .nav .open>a:focus {
-    background-color:#67B0D1;
+    background-color:#1fb5ad;
     text-decoration:none;
     color:#fff;
     transition:all 0.3s ease 0s;
