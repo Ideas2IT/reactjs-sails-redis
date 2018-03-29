@@ -47,6 +47,10 @@ $ sails lift
 ```
 Your app should now be running on localhost:1337.
 
+## Screenshot
+
+![alt tag](rsr.png)
+
 ## Users
 Super user: superuser@rsr.com/123456
 
