@@ -53,7 +53,7 @@ Super user: superuser@rsr.com/123456
 Regular user: regularuser@rsr.com/123456
 
 ## License
-[The MIT License](http://opensource.org/licenses/MIT)
+[The ISC License](http://opensource.org/licenses/ISC)
 
 ## Maintained By
 [<img src='https://www.ideas2it.com/images/tiny-home-images/logo.png' title='​Ideas2IT Technology Services Pvt.Ltd' height='36px'>](https://www.ideas2it.com)
