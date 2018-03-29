@@ -1,9 +1,9 @@
 {
   "name": "reactjs-sails-redis",
-  "private": true,
   "version": "0.0.1",
   "authors": [
-    "Maheshwaran <mahesh.b@ideas2it.com>"
+    "Maheshwaran <mahesh.b@ideas2it.com>",
+    "Ideas2It Community<nodejscommunity@ideas2it.com>"
   ],
   "description": "Sails and React project with Redis as primary database",
   "keywords": [],
@@ -49,5 +49,15 @@
     "url": "git://github.com/Ideas2IT/reactjs-sails-redis.git"
   },
   "author": "Ideas2It",
-  "license": ""
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ideas2IT/reactjs-sails-redis/issues"
+  },
+  "homepage": "https://github.com/Ideas2IT/reactjs-sails-redis#readme",
+  "devDependencies": {},
+  "keywords": [
+    "reactjs",
+    "sails",
+    "sails-redis"
+  ]
 }
